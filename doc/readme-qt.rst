@@ -34,6 +34,20 @@ then execute the following:
 
     qmake
     make
+    
+::
+    
+As an alterntive to executing the above qmake/make command
+
+
+::
+
+   qmake -qt=qt4 "USE_UPNP=-"
+   make
+
+
+This will build the client without UPNP support and force the compiler to use qt4
+   
 
 Alternatively, install `Qt Creator`_ and open the `bitcoin-qt.pro` file.
 

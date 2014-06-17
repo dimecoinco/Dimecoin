@@ -35,11 +35,13 @@ Command
 As an alterntive to: 
 
 qmake
+
 make
 
 You can force the compiler to use qt4 (and not any qt5 deps) by:
 
 qmake -qt=qt4 "USE_UPNP=-"
+
 make
 
 

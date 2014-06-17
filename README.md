@@ -19,11 +19,31 @@ parties.  Users hold the crypto keys to their own money and transact directly
 with each other, with the help of a P2P network to check for double-spending.
 
 
+Extra Inforation
+---------------------
+This is Robert Hartland's and Dimelord's and the second version of Dimecoin 1.5. This might be easier to compile for some ppeople.
+
+
 Setup
 ---------------------
 You need the Qt4 run-time libraries to run Dimecoin-Qt. On Debian or Ubuntu:
 	`sudo apt-get install libqtgui4`
+	
 
+Command
+---------------------
+As an alterntive to: 
+
+qmake
+make
+
+You can force the compiler to use qt4 (and not any qt5 deps) by:
+
+qmake -qt=qt4 "USE_UPNP=-"
+make
+
+
+This will build the client without UPNP support
 
 
 Other Pages
